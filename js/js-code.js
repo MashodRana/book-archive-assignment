@@ -96,6 +96,12 @@ document.getElementById('search-button').addEventListener('click', () => {
     // Create the url with the search text.
     const url = `https://openlibrary.org/search.json?q=${searchText}`;
 
+    // Clearing previous search results.
+    const searchContainer = document.getElementById('search-msg');
+    const cardList = document.getElementById('card-list');
+
+    searchContainer.innerHTML = "";
+    cardList.innerHTML = "";
     // Fetch the data from the API and show the results.
     lodaData(url);
 })
