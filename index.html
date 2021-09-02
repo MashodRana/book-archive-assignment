@@ -15,30 +15,36 @@
 </head>
 
 <body>
-    <div class="container search-container" id="search-container">
-        <h1>Type your text to find your desired books</h1>
-        <input type="text" id="search-box">
-        <button id="search-button">Search</button>
-    </div>
+    <main>
+        <!-- Head content start here-->
+        <section class="mt-5">
+            <div class="container search-container" id="search-container">
+                <div class="d-flex justify-content-center">
+                    <h1 class="heading">Find Your <span>Desired Books</span></h1>
 
-    <section class="container books mt-5">
-        <div id="card-list" class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input class="form-control w-50" type="text" id="search-box">
+                    <button id="search-button" class="btn button">Search</button>
+                </div>
+                <div id="search-msg" class="search-info">
+
                 </div>
             </div>
+        </section>
+        <!-- Head content ends here -->
 
-        </div>
-    </section>
+
+        <!-- Books search results start here -->
+        <section class="container books my-5">
+            <div id="card-list" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+        </section>
+        <!-- Books search result ends here -->
+    </main>
+
+
     <!-- Cusotm JavaScript Code -->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

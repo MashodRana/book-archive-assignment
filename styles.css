@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.heading span{
+    color: #E67E22;
+}
+
+.button{
+    background-color: #E67E22;
+}
+
+.search-info li{
+    color:#E67E22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search-info .red{
+    color: red;
+
+}
